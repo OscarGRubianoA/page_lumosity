@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 8vh;
+    width: 100%;
+    
+    gap: 10rem;
+    text-decoration: none;
+}
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+header div a{
+    text-decoration: none;
+    color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: rgb(230, 230, 230);
+    padding: .5rem 1rem;
+
+}
+header div a:first-child{
+    background-color:rgba(255, 68, 0, 0.687);
+    padding: .5rem 1rem;
+    color: white;
+}
+header div h2{
+    color:teal;
+}
+main .section__one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    background-color:rgb(0, 84, 84);
+    color: white;
+}
+main .section__one p:last-child{
+    padding: 2rem;
+   
+}
+main .section__one a{
+    text-decoration: none;
+    padding: .5rem 1rem;
+    color: white;
+    background-color:rgba(255, 68, 0, 0.88);
+    margin: 1rem;
+
+}
+main .section__one h1:first-child{
+    padding-bottom: 1rem;
+}
+main .section__two{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  gap: 1rem;
+  margin: 1rem;
+
+}
+main .section__two div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10rem;
+}
+
+main .section__two .section__two__top img{
+height: 18rem;
+width: 17rem;
+border-radius: 50%;
+object-fit: cover;
+}
+main .section__two .section__two__top article{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:center;
+    gap: .5rem;
+    width: 30%;
+    padding: 1rem;
+    
+}
+main .section__two .section__two__top article img:first-child{
+align-items: center;
+position: relative;
+left: 5rem;
+
+}
+
+/* main .section__two .section__two__top article div{
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content:flex-start;
+background-color: aquamarine;
+height: 100%;
+
+} */
+
+main .section__two .section__two__bottom article img{
+    border-radius: 50%;
+    position: relative;
+    left: 4rem;
+    width: 4rem;
+}
+main .section__two .section__two__bottom article{
+    display: flex;
+    flex-direction: column;
+    gap:.8rem;
+    }
+main .section__two button{
+margin: 5rem 5rem 0 5rem;
+padding: .5rem 1rem;
+background-color: rgba(255, 68, 0, 0.687);
+color: white;
+cursor: pointer;
+}
+main .section__three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 2rem;
+    gap: 1rem;
+    background-color: rgb(202, 202, 202);
+    color: teal;
+}
+main .section__three h2{
+    margin-bottom: 10rem;
+}
+main .section__three div{
+    display: flex;
+    gap:4rem;
+}
+main .section__three div div{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 12rem;
+}
+main .section__three button{
+    padding: .5rem;
+    background-color: rgba(128, 128, 128, 0.79);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 1rem;
+}
+main .section__four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+    background-color:cadetblue;
+    color: white;
+
+
+}
+main .section__four .carousel{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    
+    height: 15rem;
+    width: 50vh;
+}
+main .section__four .carousel img{
+    width: 20rem;
+    height: 10rem;
+}
+main .section__four .carousel div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+main .section__four .carousel div p{
+    text-align: center;
+}
+main .section__four button{
+    padding: .5rem 1rem;
+    background-color:rgb(0, 107, 107);
+    color: white;
+    border-radius: .2rem;
+    border: none;
+    cursor: pointer;
+}
+main .section__four .p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .section__five{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 2rem 1rem 1rem 1rem;
+}
+main .section__five div{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+    gap: 1rem;
+}
+main .section__five div div{
+    display: flex;
+    flex-direction: column;
+    width: 24.2rem;
+}
+main .section__five div div i:first-child{
+    text-align: center;
+}
+main .pre__footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(254, 118, 69);
+    height: 5rem;
+    color: white;
+}
+main .pre__footer a{
+    text-decoration: none;
+    padding: .5rem 1rem;
+    color: rgb(254, 118, 69);
+    background-color: white;
+}
+footer{
+    display: flex;
+    justify-content:center;
+    padding: 1rem;
+    align-items: center;
+    gap: 1rem;
+}
+footer a{
+    text-decoration: none;
+    color:grey;
+}
